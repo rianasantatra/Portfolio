@@ -7,8 +7,8 @@
     <title>Riana Santatra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" type="text/css" media="screen" href="vendor/css/css/css.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="vendor/css/css/app.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/css/css.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/css/app.css" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -36,12 +36,12 @@
 
     <section id="about" class="container-fluid">
         <div class="col-xs-8 col-md-4 profile-pic">
-            <img src="vendor/img/pdp.jpg" alt="profile-pic" class="img-circle" />
+            <img src="assets/img/pdp.jpg" alt="profile-pic" class="img-circle" />
         </div>
         <div class="heading">
             <h1>Bonjour, Je suis Riana Santatra</h1>
             <h3>Développeur Web</h3>
-            <a href="vendor/doc/cv.pdf" class="download">Télecharger le CV</a>
+            <a href="assets/doc/cv.pdf" class="download">Télecharger le CV</a>
         </div>
     </section>
 
@@ -296,9 +296,9 @@
         <h5>© 2022 | rianasantatra.com</h5>
     </footer>
 
-    <script src="vendor/js/jquery.js"></script>
-    <script src="vendor/js/app.js"></script>
-    <script src="vendor/js/script.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
