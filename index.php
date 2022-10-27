@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/css/app.css" />
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target="#navigation">
 
     <nav class="navbar navbar-default navbar-fixed-top" id="navigation">
         <div class="container">
