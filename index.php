@@ -30,8 +30,8 @@
                     <li><a href="#skills">Compétences</a></li>
                     <li><a href="#experiences">Expériences</a></li>
                     <li><a href="#educations">Formations</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#recommandations">Recommandations</a></li>
+                    <!--<li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#recommandations">Recommandations</a></li>-->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
     </nav>
@@ -236,7 +236,7 @@
             </div>
         </div>
     </section>
-    <section id="portfolio">
+    <!--<section id="portfolio">
         <div class="white-divider"></div>
         <div class="heading">
             <h2>PORTFOLIO</h2>
@@ -312,7 +312,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </section>
+    </section>-->
     <section id="contact">
         <div class="white-divider"></div>
         <div class="heading">
