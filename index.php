@@ -30,8 +30,6 @@
                     <li><a href="#skills">Compétences</a></li>
                     <li><a href="#experiences">Expériences</a></li>
                     <li><a href="#educations">Formations</a></li>
-                    <!--<li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#recommandations">Recommandations</a></li>-->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
     </nav>
@@ -236,83 +234,6 @@
             </div>
         </div>
     </section>
-    <!--<section id="portfolio">
-        <div class="white-divider"></div>
-        <div class="heading">
-            <h2>PORTFOLIO</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="#" class="thumbnail">
-                        <img src="vendor/img/google_translate.png" alt="google">
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#" class="thumbnail">
-                        <img src="vendor/img/facebook_share.png" alt="facebook">
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#" class="thumbnail">
-                        <img src="vendor/img/twitter_retweet.png" alt="twitter">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="#" class="thumbnail">
-                        <img src="vendor/img/youtube.png" alt="google">
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#" class="thumbnail">
-                        <img src="vendor/img/facebook_video.png" alt="facebook">
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#" class="thumbnail">
-                        <img src="vendor/img/twitter_video.png" alt="twitter">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="recommandations">
-        <div class="red-divider"></div>
-        <div class="heading">
-            <h2>Recommandations</h2>
-        </div>
-        <div id="mycarousel" class="carousel slide text-center" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#mycarousel" data-slide-to="1"></li>
-                <li data-target="#mycarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <h3>"John t'es le meilleur! Merci pour tout..."</h3>
-                    <h4>Larry Page,Google Co-Founder</h4>
-                </div>
-                <div class="item">
-                    <h3>"Merci John de m'avoir appris à coder... Tout ça c'est grâce à toi!"</h3>
-                    <h4>Mark Zuckerberg,Facebook Founder and CEO</h4>
-                </div>
-                <div class="item">
-                    <h3>"L'esprit le plus créatif que j'ai vu de toute ma vie..."</h3>
-                    <h4>Jack Dorsey,Twitter Founder and CEO</h4>
-                </div>
-            </div>
-            <a href="#mycarousel" class="left carousel-control" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a href="#mycarousel" class="right carousel-control" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </section>-->
     <section id="contact">
         <div class="white-divider"></div>
         <div class="heading">
