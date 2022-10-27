@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="vendor/css/css/app.css" />
 </head>
 
-<body data-spy="scroll" data-target="#navigation">
+<body data-spy="scroll" data-target=".navbar">
 
     <nav class="navbar navbar-default navbar-fixed-top" id="navigation">
         <div class="container">
@@ -124,7 +124,7 @@
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h3 class="text-uppercase">paositra malagasy</h3>
-                            <h4>Agent complément d’effectif</h4>
+                            <h4>Technicien Informatique</h4>
                             <p class="text-muted">
                                 <small class="glyphicon glyphicon-time"></small> Avr. 2017 -
                                 maintenant
@@ -133,9 +133,8 @@
                         <div class="timeline-body">
                             <p>Maintenance hardware et softwae</p>
                             <p>Dépannage réseaux</p>
-                            <p>
-                                Installations et déploiment des applications de l'entreprise
-                            </p>
+                            <p>Installations et déploiment des applications de l'entreprise</p>
+                            <p>Dévéloppeur d'application web interne</p>
                         </div>
                     </div>
                 </div>
