@@ -11,6 +11,13 @@ h6 {
     font-weight: bold;
 }
 
+a{
+    color: #fff;
+}
+a:hover{
+    color: #000;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -308,7 +315,7 @@ section .heading h2 {
 
 /* FOOTER */
 footer {
-    background-color: #333;
+    background-color: #d82c2e;
     padding: 20px 0 40px;
 }
 
@@ -320,7 +327,7 @@ footer h5 {
 footer .glyphicon {
     font-size: 25px;
     margin: 20px;
-    color: #d82c2e;
+    color: #fff;
     height: 30px;
 }
 
