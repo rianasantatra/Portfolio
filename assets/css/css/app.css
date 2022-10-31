@@ -45,7 +45,7 @@ section .heading h2 {
 /* ABOUT */
 #about {
     padding-top: 100px;
-    background-color: #d82c2e;
+    background-color: #ea3735;
 }
 
 .profile-pic {
@@ -83,7 +83,7 @@ section .heading h2 {
 
 /* SKILLS */
 #skills .heading h2 {
-    color: #d82c2e;
+    color: #ea3735;
     text-transform: uppercase;
 }
 
@@ -103,7 +103,7 @@ section .heading h2 {
 
 /* EXPIERIENCES */
 #experiences {
-    background-color: #d82c2e;
+    background-color: #ea3735;
 }
 
 #experiences .heading h2 {
@@ -366,7 +366,7 @@ footer .glyphicon:hover {
 
 /* CONTACT */
 #contact {
-    background-color: #d82c2e;
+    background-color: #ea3735;
 }
 
 #contact .heading h2 {
