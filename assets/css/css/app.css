@@ -338,7 +338,6 @@ footer .glyphicon:hover {
 }
 
 .navbar .navbar-nav {
-    display: inline-block;
     float: none;
     vertical-align: top;
 }
@@ -421,3 +420,18 @@ footer .glyphicon:hover {
     font-weight: bold;
     font-size: 22px;
 }
+
+/** NAV **/
+.navbar-inverse .navbar-toggle{
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 2em;
+  }
