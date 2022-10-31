@@ -83,7 +83,7 @@ section .heading h2 {
 
 /* SKILLS */
 #skills .heading h2 {
-    color: #ea3735;
+    color: #d82c2e;
     text-transform: uppercase;
 }
 
@@ -98,7 +98,7 @@ section .heading h2 {
 }
 
 #skills .progress-bar {
-    background-color: #d82c2e;
+    background-color: #ea3735;
 }
 
 /* EXPIERIENCES */
@@ -366,7 +366,7 @@ footer .glyphicon:hover {
 
 /* CONTACT */
 #contact {
-    background-color: #ea3735;
+    background-color: #d82c2e;
 }
 
 #contact .heading h2 {
