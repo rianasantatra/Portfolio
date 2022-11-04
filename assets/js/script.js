@@ -10,6 +10,11 @@ $(function () {
         });
     });
 
+    /** auto close link after click */
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
+
     /* AJAX */
     $('#contact-form').submit(function (e) {
         e.preventDefault();
