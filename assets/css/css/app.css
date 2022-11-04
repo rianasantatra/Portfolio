@@ -371,6 +371,15 @@ footer .glyphicon:hover {
     background-color: #fff !important;
 }
 
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+  }
+
 /* CONTACT */
 #contact {
     background-color: #8F1D21;
