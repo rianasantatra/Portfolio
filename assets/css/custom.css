@@ -1,6 +1,8 @@
 /**
 ** general  **
 **/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 body {
   font-family: "Montserrat", sans-serif !important;
   background-color: #dbdbdb;
@@ -80,15 +82,15 @@ section .heading h2 {
   margin: 0 auto !important;
   float: none !important;
 }
-.download{
-	font-weight: bold;
-    text-transform: uppercase;
-	background-color : #333;
-    margin-top: 20px;
-    padding: 18px 50px;
-    border-radius: 2px;
-    display: inline-block;
-    transition: all 0.2s ease-in 0.2s;
+.download {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #333;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 2px;
+  display: inline-block;
+  transition: all 0.2s ease-in 0.2s;
 }
 /**
 ** skills
@@ -151,7 +153,7 @@ section .heading h2 {
 }
 
 .formation-block .fa-solid {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 /**
