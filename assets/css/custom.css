@@ -70,6 +70,16 @@ section .heading h2 {
   }
 }
 
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
 /**
 ** about  **
 **/
