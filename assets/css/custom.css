@@ -1,0 +1,170 @@
+/**
+** general  **
+**/
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #dbdbdb;
+}
+
+a {
+  color: #fff !important;
+  font-weight: bold;
+}
+a:hover {
+  color: #37bc9b !important;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 45px 0 80px 0;
+}
+
+section .heading {
+  text-align: center;
+}
+
+section .heading h2 {
+  text-transform: uppercase;
+}
+
+.divider {
+  width: 100px;
+  height: 3px;
+  background-color: #48cfad;
+  margin: 0 auto;
+}
+
+.circ {
+  background-color: #37bc9b !important;
+}
+
+/**
+** navbar
+**/
+.navbar {
+  border-radius: 0 !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav .active > a {
+  color: #37bc9b !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-style: none !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+  }
+}
+
+/**
+** about  **
+**/
+#about {
+  padding-top: 100px;
+}
+
+.profile-pic {
+  text-align: center !important;
+  margin: 0 auto !important;
+  float: none !important;
+}
+.download{
+	font-weight: bold;
+    text-transform: uppercase;
+	background-color : #333;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 2px;
+    display: inline-block;
+    transition: all 0.2s ease-in 0.2s;
+}
+/**
+** skills
+**/
+#skills .progress {
+  margin: 20px 10px !important;
+}
+
+/**
+** timeline
+**/
+
+.timeline dl:before {
+  background-color: #434a54;
+}
+
+.timeline dl dt {
+  width: 200px !important;
+  background-color: #434a54;
+}
+
+#experiences .events-heading {
+  text-transform: uppercase !important;
+}
+
+/**
+** formations
+**/
+.formation-block {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  margin-bottom: 20px;
+  border-color: #37bc9b;
+}
+
+.formation-block h5 {
+  color: #888;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.formation-block .glyphicon {
+  font-size: 40px;
+}
+
+.formation-block h4 {
+  margin-bottom: 20px;
+}
+
+.formation-block p {
+  font-weight: bold;
+}
+
+.formation-block .divider {
+  margin-bottom: 20px;
+}
+
+.formation-block .fa-solid {
+    font-size: 35px;
+}
+
+/**
+** footer
+**/
+footer {
+  background-color: #333;
+  color: #f5f5f5;
+  padding: 32px;
+}
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}

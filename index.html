@@ -1,125 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>Riana Santatra</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/css/css.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/css/app.css" />
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script src="assets/js/site.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navigation">
 
-    <nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+    <!--navigation-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navigation">
         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
             </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#about">Moi</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#experiences">Expériences</a></li>
-                    <li><a href="#educations">Formations</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#formations">Training</a></li>
+					<li><a href="#projects">Projects</a></li>
                 </ul>
             </div>
+        </div>
     </nav>
 
-    <section id="about" class="container-fluid">
-        <div class="col-xs-8 col-md-4 profile-pic">
-            <img src="assets/img/pdp2.jpg" alt="profile-pic" class="img-circle" />
-        </div>
-        <div class="heading">
-            <h1>Bonjour, Je suis Riana Santatra</h1>
-            <h3>Développeur Web</h3>
-            <a href="assets/doc/cv.pdf" class="download">Télecharger le CV</a>
+    <!--about-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-md-4 profile-pic">
+                    <img class="img-circle img-responsive" src="assets/img/pdp1.jpg" alt="photo de profil"
+                        id="profil-pic">
+                </div>
+                <div class="heading">
+                        <h1>Hello, I'm <span id="description"></span></h1>
+						<a href="assets/doc/cv.pdf" class="download">Download CV</a>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!--skills-->
     <section id="skills">
-        <div class="red-divider"></div>
+        <div class="divider"></div>
         <div class="heading">
-            <h2>Compétences</h2>
+            <h2>Skills</h2>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 90%">
-                            <h5>HTML 90%</h5>
+                <div class="col-sm-6">
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                            HTML
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 80%">
-                            <h5>CSS 80%</h5>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            CSS
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="55"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 75%">
-                            <h5>Photoshop 75%</h5>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                            JS
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="55"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 65%">
-                            <h5>Illustrator 65%</h5>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                            PHP
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="55"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 80%">
-                            <h5>Système Windows 80%</h5>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                            MySQL
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 75%">
-                            <h5>PHP 75%</h5>
+                <div class="col-sm-6">
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                            C ++
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 85%">
-                            <h5>MYSQL 85%</h5>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                            JAVA
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="55"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 55%">
-                            <h5>JAVA 55%</h5>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                            PHOTOSHOP
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="55"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 55%">
-                            <h5>C++ 55%</h5>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                            ILLUSTRATOR
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="55"
-                            aria-valuemax="100" aria-valuemin="0" style="width: 65%">
-                            <h5>Système Linux 65%</h5>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            GIT
                         </div>
                     </div>
                 </div>
@@ -127,215 +141,179 @@
         </div>
     </section>
 
+    <!--timeline-->
     <section id="experiences">
-        <div class="white-divider"></div>
+        <div class="divider"></div>
         <div class="heading">
-            <h2>Expériences</h2>
+            <h2>Experiences</h2>
         </div>
-        <ul class="timeline">
-            <li>
-                <div class="timeline-badge">
-                    <span class="glyphicon glyphicon-briefcase"></span>
-                </div>
-                <div class="timeline-panel-container">
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h3 class="text-uppercase">paositra malagasy</h3>
-                            <h4>Technicien Informatique</h4>
-                            <p class="text-muted">
-                                <small class="glyphicon glyphicon-time"></small> Avr. 2017 -
-                                maintenant
-                            </p>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Maintenance hardware et softwae</p>
-                            <p>Dépannage réseaux</p>
-                            <p>Installations et déploiment des applications de l'entreprise</p>
-                            <p>Dévéloppeur d'application web interne</p>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="timeline">
+                        <dl>
+                            <dt class="text-uppercase">paositra malagasy</dt>
+                            <dd class="pos-left clearfix">
+                                <div class="circ"></div>
+                                <div class="events">
+                                    <div class="events-body">
+                                        <h4 class="events-heading text-primary">techinicien informatique</h4>
+                                        <p class="text-muted">
+                                            <i class="fa-regular fa-clock"></i> Avr 2017 - Maintenant
+                                        </p>
+                                        <p>Maintenance hardware et softwae</p>
+                                        <p>Dépannage réseaux</p>
+                                        <p>Installations et déploiment des applications de l'entreprise</p>
+                                        <p>Dévéloppeur d'application web interne</p>
+                                    </div>
+                                </div>
+                            </dd>
+                            <dt class="text-uppercase">trusty labs</dt>
+                            <dd class="pos-right clearfix">
+                                <div class="circ"></div>
+                                <div class="events">
+                                    <div class="events-body">
+                                        <h4 class="events-heading text-primary">Stagiaire</h4>
+                                        <p class="text-muted">
+                                            <i class="fa-regular fa-clock"></i> Jan – Mar 2017
+                                        </p>
+                                        <p>Développement des nouveaux applications web</p>
+                                        <p>Maintenance des applications web éxistantes</p>
+                                    </div>
+                                </div>
+                            </dd>
+                            <dt class="text-uppercase">paositra malagasy</dt>
+                            <dd class="pos-left clearfix">
+                                <div class="circ"></div>
+                                <div class="events">
+                                    <div class="events-body">
+                                        <h4 class="events-heading text-primary">Stagiaire</h4>
+                                        <p class="text-muted">
+                                            <i class="fa-regular fa-clock"></i> Jan – Mar 2016
+                                        </p>
+                                        <p>Développement d'application intranet</p>
+                                        <p>Dépannage réseaux</p>
+                                    </div>
+                                </div>
+                            </dd>
+                            <dt class="text-uppercase">blanche birger sarl</dt>
+                            <dd class="pos-right clearfix">
+                                <div class="circ"></div>
+                                <div class="events">
+                                    <div class="events-body">
+                                        <h4 class="events-heading text-primary">Stagiaire</h4>
+                                        <p class="text-muted">
+                                            <i class="fa-regular fa-clock"></i> Sept – Nov 2014
+                                        </p>
+                                        <p>administration réseaux sous CISCO</p>
+                                    </div>
+                                </div>
+                            </dd>
+                        </dl>
                     </div>
                 </div>
-            </li>
-            <li>
-                <div class="timeline-badge">
-                    <span class="glyphicon glyphicon-briefcase"></span>
-                </div>
-                <div class="timeline-panel-container-inverted">
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h3 class="text-uppercase">trusty labs</h3>
-                            <h4>Stagiaire</h4>
-                            <p class="text-muted">
-                                <small class="glyphicon glyphicon-time"></small> Jan. – Mar.
-                                2017
-                            </p>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Développement des nouveaux applications web</p>
-                            <p>Maintenance des applications web éxistantes</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="timeline-badge">
-                    <span class="glyphicon glyphicon-briefcase"></span>
-                </div>
-                <div class="timeline-panel-container">
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h3 class="text-uppercase">paositra malagasy</h3>
-                            <h4>Stagiaire</h4>
-                            <p class="text-muted">
-                                <small class="glyphicon glyphicon-time"></small> Jan. – Mar.
-                                2016
-                            </p>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Développement d'application intranet</p>
-                            <p>Dépannage réseaux</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="timeline-badge">
-                    <span class="glyphicon glyphicon-briefcase"></span>
-                </div>
-                <div class="timeline-panel-container-inverted">
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h3 class="text-uppercase">blanche birger sarl</h3>
-                            <h4>Stagiaire</h4>
-                            <p class="text-muted">
-                                <small class="glyphicon glyphicon-time"></small> Sept. – Nov.
-                                2014
-                            </p>
-                        </div>
-                        <div class="timeline-body">
-                            <p>administration réseaux sous CISCO</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
+            </div>
+        </div>
     </section>
-    <section id="educations">
-        <div class="red-divider"></div>
+    <section id="formations">
+        <div class="divider"></div>
         <div class="heading">
-            <h2>Formations</h2>
+            <h2>Training</h2>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="education-block">
+                    <div class="formation-block">
                         <h5>2017</h5>
-                        <span class="glyphicon glyphicon-education"></span>
-                        <h3>ISM-Advancea</h3>
-                        <h4>Licence informatique</h4>
-                        <div class="red-divider"></div>
-                        <p>Option design et développement web</p>
+						<i class="fa-solid fa-graduation-cap"></i>
+                        <h3 class="text-primary">ISM-Advancea</h3>
+                        <h4>Bachelor's degree in computer science</h4>
+                        <div class="divider"></div>
+                        <p>Design and web development option</p>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="education-block">
+                    <div class="formation-block">
                         <h5>2016</h5>
-                        <span class="glyphicon glyphicon-education"></span>
-                        <h3>ISM-Advancea</h3>
-                        <h4>DTS informatique</h4>
-                        <div class="red-divider"></div>
-                        <p>Option design et développement web</p>
+						<i class="fa-solid fa-graduation-cap"></i>
+                        <h3 class="text-primary">ISM-Advancea</h3>
+                        <h4>DTS IT</h4>
+                        <div class="divider"></div>
+                        <p>Design and web development option</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--<section id="contact">
-        <div class="white-divider"></div>
+	<section id="projects">
+        <div class="divider"></div>
         <div class="heading">
-            <h2>Contact</h2>
+            <h2>Projects</h2>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <form id="contact-form" role="form" method="post" action="">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label for="prénom">Prénom<span class=""> *</span></label>
-                                <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Prénom">
-                                <p class="comments"></p>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="nom">Nom<span class=""> *</span></label>
-                                <input id="lastname" type="text" name="lastname" class="form-control" placeholder="Nom">
-                                <p class="comments"></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label for="email">Email<span class=""> *</span></label>
-                                <input id="email" type="text" name="email" class="form-control" placeholder="Email">
-                                <p class="comments"></p>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="phone">Téléphone<span class=""> *</span></label>
-                                <input id="phone" type="tel" name="phone" class="form-control" placeholder="Téléphone">
-                                <p class="comments"></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <label for="message">Message<span class=""> *</span></label>
-                                <textarea id="message" name="message" class="form-control" placeholder="Message..." rows="4"></textarea>
-                                <p class="comments"></p>
-                            </div>
-                        </div>
-                        <div class=" row">
-                            <div class="col-md-12">
-                                <p class=""><strong>* informations requis</strong></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="submit" class="button" value="Envoyer">
-                            </div>
-                        </div>
-                    </form>
-
-                </div>
+              <div class="col-sm-6 col-md-3">
+              <div class="thumbnail">
+                <img class="img-rounded" src="assets/img/Couverture ITWare.mg.png">
+              </div>
+            </div>
+			<div class="col-sm-6 col-md-3">
+              <div class="thumbnail">
+                <img class="img-rounded" src="assets/img/itware.mg (1).png">
+              </div>
+            </div>
+			<div class="col-sm-6 col-md-3">
+              <div class="thumbnail">
+                <img class="img-rounded" src="assets/img/faBOOlous Mode - logo.png">
+              </div>
+            </div>
+			<div class="col-sm-6 col-md-3">
+              <div class="thumbnail">
+                <img class="img-rounded" src="assets/img/faBOOlous Mode - banner.png">
+              </div>
+            </div>
             </div>
         </div>
-    </section>-->
+    </section>
     <footer class="text-center">
-        <a href="#about">
-            <span class="glyphicon glyphicon-chevron-up"></span>
+        <a href="#about" title="To Top">
+            <i class="fa-solid fa-chevron-up"></i>
         </a>
         <h5>Copyright © 2022 | Riana Santatra</h5>
-        <br>
-        <div class="container">
-            <div class="row text-center">
-                <ul class="list-inline">
-                    <li>
-                        <a href="https://github.com/rianasantatra"><i class="fa-brands fa-github fa-3x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/charles.randria.33"><i
-                                class="fa-brands fa-facebook fa-3x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/riana-santatra-razafimamonjy-97297820b/"><i
-                                class="fa-brands fa-linkedin fa-3x"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <p>
+            <a href="https://github.com/rianasantatra"><i class="fa-brands fa-github fa-3x"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://www.facebook.com/charles.randria.33"><i class="fa-brands fa-facebook fa-3x"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/riana-santatra-razafimamonjy-97297820b/"><i
+                    class="fa-brands fa-linkedin fa-3x"></i></a>
+        </p>
     </footer>
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+    <script>
+        var typed = new Typed('#description', {
+            strings: ['Riana Santatra','a Web Developer', 'a Web Integrator', 'a Web Designer'],
+            typeSpeed: 75,
+            loop: true,
+        });
 
+        $(function () {
+            /* SCROLLSPY */
+            $(".navbar a, footer a").on("click", function (event) {
+                event.preventDefault();
+                var hash = this.hash;
+
+                $("body,html").animate({ scrollTop: $(hash).offset().top }, 900, () => {
+                    window.location.hash = hash;
+                });
+            });
+
+            $('.navbar-collapse a').click(function () {
+                $(".navbar-collapse").collapse('hide');
+            });
+
+        });
+    </script>
 </body>
 
 </html>
