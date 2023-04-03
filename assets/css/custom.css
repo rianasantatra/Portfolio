@@ -111,6 +111,12 @@ section .heading h2 {
   width: 200px !important;
   background-color: #434a54;
 }
+@media screen and (max-width: 767px) {
+  .circ,
+  .timeline dl:before {
+    left: 20px !important;
+  }
+}
 
 #experiences .events-heading {
   text-transform: uppercase !important;
