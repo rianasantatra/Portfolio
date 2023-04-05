@@ -107,6 +107,7 @@ section .heading h2 {
 **/
 #skills .progress {
   margin: 20px 10px !important;
+  background-color: #cbcbcb !important;
 }
 
 /**
