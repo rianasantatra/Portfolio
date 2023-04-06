@@ -108,6 +108,14 @@ section .heading h2 {
 #skills .progress {
   margin: 20px 10px !important;
   background-color: #cbcbcb !important;
+  height: 30px;
+}
+#skills .progress p {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px;
+  text-align: start;
 }
 
 /**
@@ -261,7 +269,6 @@ textarea {
 }
 
 .submit-btn {
-  float: right;
   padding: 10px 35px;
   border-radius: 60px;
   display: inline-block;
