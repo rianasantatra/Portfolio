@@ -63,8 +63,7 @@ section .heading h2 {
 
 @media (min-width: 768px) {
   .navbar-nav {
-    float: none;
-    margin: 0 auto;
+    float: right;
     display: table;
     table-layout: fixed;
   }
